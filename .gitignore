@@ -1,0 +1,18 @@
+# Gradle and Kotlin build state
+.gradle/
+.kotlin/
+build/
+
+# IDE and operating-system files
+.idea/
+*.iml
+.DS_Store
+
+# Local configuration and secrets
+local.properties
+secrets/
+.git-backups/
+
+# Generated documentation and logs
+docs/
+*.log

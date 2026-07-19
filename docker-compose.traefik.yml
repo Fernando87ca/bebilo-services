@@ -1,0 +1,42 @@
+name: bebilo-gateway
+
+services:
+  traefik:
+    image: traefik:v3
+    environment:
+      DOCKER_API_VERSION: "1.41"
+    command:
+      - --api.dashboard=true
+      - --api.insecure=true
+      - --entrypoints.web.address=:80
+      - --providers.docker=true
+      - --providers.docker.exposedbydefault=false
+    ports:
+      - "8088:80"
+      - "8090:8080"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    networks:
+      - bebilo-gateway
+
+  swagger-ui:
+    image: docker.swagger.io/swaggerapi/swagger-ui:v5.32.6
+    environment:
+      BASE_URL: /swagger
+      URLS: >-
+        [
+          {"name": "Auth Service", "url": "/auth/openapi.yaml"}
+        ]
+      URLS_PRIMARY_NAME: Auth Service
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.swagger-ui.rule=Host(`api.bebilo.localhost`) && PathPrefix(`/swagger`)
+      - traefik.http.routers.swagger-ui.entrypoints=web
+      - traefik.http.services.swagger-ui.loadbalancer.server.port=8080
+      - traefik.docker.network=bebilo-gateway
+    networks:
+      - bebilo-gateway
+
+networks:
+  bebilo-gateway:
+    external: true

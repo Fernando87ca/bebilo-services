@@ -1,3 +1,6 @@
 [submodule "auth-services"]
 	path = auth-services
 	url = git@github.com:Fernando87ca/bebilo-auth-services.git
+[submodule "profile-services"]
+	path = profile-services
+	url = git@github.com:Fernando87ca/bebilo-profile-service.git

@@ -25,7 +25,9 @@ services:
       BASE_URL: /swagger
       URLS: >-
         [
-          {"name": "Auth Service", "url": "/auth/openapi.yaml"}
+          {"name": "Auth Service", "url": "/auth/openapi.yaml"},
+          {"name": "Baby Service", "url": "/baby/openapi.yaml"},
+          {"name": "Profile Service", "url": "/profile/openapi.yaml"}
         ]
       URLS_PRIMARY_NAME: Auth Service
     labels:

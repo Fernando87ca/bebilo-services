@@ -7,3 +7,6 @@
 [submodule "profile-services"]
 	path = profile-services
 	url = git@github.com:Fernando87ca/bebilo-profile-services.git
+[submodule "recipe-services"]
+	path = recipe-services
+	url = git@github.com:Fernando87ca/bebilo-recipes-services.git

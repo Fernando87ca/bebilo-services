@@ -4,3 +4,6 @@
 [submodule "baby-services"]
 	path = baby-services
 	url = git@github.com:Fernando87ca/bebilo-baby-service.git
+[submodule "profile-services"]
+	path = profile-services
+	url = git@github.com:Fernando87ca/bebilo-profile-services.git

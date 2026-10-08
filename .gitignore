@@ -13,6 +13,12 @@ local.properties
 secrets/
 .git-backups/
 
-# Generated documentation and logs
-docs/
+# Generated documentation and logs; keep SDD Markdown versioned
+docs/*
+!docs/README.md
+!docs/spec-driven-development.md
+!docs/changes/
+docs/changes/**/*
+!docs/changes/**/
+!docs/changes/**/*.md
 *.log

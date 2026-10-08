@@ -10,3 +10,6 @@
 [submodule "recipe-services"]
 	path = recipe-services
 	url = git@github.com:Fernando87ca/bebilo-recipes-services.git
+[submodule "aiconfig-services"]
+	path = aiconfig-services
+	url = git@github.com:Fernando87ca/bebilo-ia-config.git

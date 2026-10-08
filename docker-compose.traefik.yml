@@ -27,7 +27,8 @@ services:
         [
           {"name": "Auth Service", "url": "/auth/openapi.yaml"},
           {"name": "Baby Service", "url": "/baby/openapi.yaml"},
-          {"name": "Profile Service", "url": "/profile/openapi.yaml"}
+          {"name": "Profile Service", "url": "/profile/openapi.yaml"},
+          {"name": "AI Configuration Service", "url": "/aiconfig/openapi.yaml"}
         ]
       URLS_PRIMARY_NAME: Auth Service
     labels:

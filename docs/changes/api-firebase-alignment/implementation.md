@@ -4,7 +4,8 @@ Estado: **pendiente de validación**. Fecha: 8 de octubre de 2026. [Spec](spec.m
 
 ## Revisiones y entorno
 
-- Agregador de partida: `271bd1a3366721ac5f78f86955ac34236d8a965f`. La revisión que integra los gitlinks y esta evidencia se registra en el commit posterior de cierre documental.
+- Agregador de partida: `271bd1a3366721ac5f78f86955ac34236d8a965f`.
+- Agregador con código, gitlinks, SDD y evidencia: `22bdc775348c78090a509319f563b8a2bcc1e09a`.
 - Auth: `d1a2877b8a1779d68789a16c9d87f8181838dee7`, publicado en `main`.
 - Profile: `a11fe27efc8dfd92792506f2bcb4142f52d93d76`, publicado en `main`.
 - Babies: `77ce6b6123cc319ef8e66eedc2f1d71190711376`, publicado en `main`.

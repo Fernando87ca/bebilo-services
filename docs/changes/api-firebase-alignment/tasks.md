@@ -10,4 +10,4 @@ Estado: pendiente de validación. [Plan](plan.md) · [Especificación](spec.md) 
 | T-04 | Alinear Babies | Completada | AC-04–05, AC-07 | Contrato, transacciones y pruebas |
 | T-05 | Crear aiconfig-services | Completada | AC-06–08 | Servicio, submódulo, gateway y pruebas |
 | T-06 | Validar builds y contratos | Completada | AC-01–08 | Resultados en implementation.md |
-| T-07 | Smoke test Firebase real | Bloqueada | AC-01–08 | Faltan credenciales manuales; Firebase Storage no puede crearse sin facturación |
+| T-07 | Smoke test Firebase real | Bloqueada | AC-01–08 | Smoke autenticado completado salvo fotos; Firebase Storage no puede crearse sin facturación |

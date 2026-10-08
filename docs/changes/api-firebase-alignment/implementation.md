@@ -38,11 +38,12 @@ Estado: **pendiente de validación**. Fecha: 8 de octubre de 2026. [Spec](spec.m
 | AC-08 | OpenAPI de Auth, Babies, Profile e IA por el gateway | HTTP 200; Swagger central carga las cuatro fuentes |
 | AC-07 | Token Firebase inválido contra Profile, Babies e IA | HTTP 401 con `{code,message}` |
 | Corte Profile | `/profile/v1/get-user` | HTTP 404; la ruta retirada no se publica |
+| AC-01, AC-04, AC-06, AC-07 | Smoke Firebase real con dos cuentas temporales | 24 comprobaciones correctas; UID de Auth, ciclo Profile sin foto, idempotencia/selección Babies, defaults/reemplazo IA y aislamiento entre UID |
+| Limpieza smoke | API Firebase Auth, endpoints Babies y REST Firestore | Dos cuentas eliminadas; documentos `users/{uid}` y `aiConfigurations/{uid}` eliminados con HTTP 200 |
 
 Swagger central: `http://api.bebilo.localhost:8088/swagger/`. Dashboard de Traefik: `http://localhost:8090/`.
 
 ## Pendientes y limitaciones
 
-- No se ejecutó el recorrido autenticado de creación, lectura y actualización contra Firebase porque no se proporcionaron las credenciales manuales de la cuenta de prueba. No se crearon datos de smoke test.
-- Google Cloud rechazó la creación de `bebilo-dev.firebasestorage.app` con HTTP 403: la cuenta de facturación del proyecto está ausente. Profile funciona con `photo: null`; las operaciones con foto devolverán indisponibilidad de Storage hasta activar facturación y crear el bucket en `europe-west1`.
-- Tras resolver ambos puntos deben repetirse los smoke tests autenticados de Auth, Profile, Babies e IA. Si fallan, sus datos se conservarán e identificarán aquí para diagnóstico.
+- Google Cloud rechazó la creación de `bebilo-dev.firebasestorage.app` con HTTP 403: la cuenta de facturación del proyecto está ausente. Profile funciona y fue validado con `photo: null`; las operaciones con foto devolverán indisponibilidad de Storage hasta activar facturación y crear el bucket en `europe-west1`.
+- Tras crear el bucket deben ejecutarse los smoke tests de subida, lectura, sustitución, eliminación, compensación y limpieza de fotos. Si fallan, sus datos se conservarán e identificarán aquí para diagnóstico.

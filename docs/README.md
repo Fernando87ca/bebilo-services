@@ -10,3 +10,5 @@
 - [Categorías de ingredientes](changes/recipe-ingredient-categories/plan.md): contrato obligatorio de Recipes validado y redesplegado localmente.
 
 Los planes transversales de la API viven en este repositorio agregador. El código y OpenAPI pertenecen a cada servicio; la documentación de pantallas permanece en la app.
+
+- [Creación asíncrona de recetas con Koog](changes/recipes-post-koog/plan.md): **pendiente de validación**, implementación y checks locales completos; bucket real pendiente.

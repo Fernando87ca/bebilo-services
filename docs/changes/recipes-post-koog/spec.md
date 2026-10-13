@@ -46,3 +46,7 @@ Referencia HTTP ejecutable: [OpenAPI Recipes](../../../recipe-services/src/main/
 Todas acordadas el 2026-10-12 en conversación: Koog dentro de Recipes; consulta Babies por IDs; texto e imágenes reales; ingredientes ampliables y métodos fijos; fotos fallidas permiten Ready; descarga autenticada; multiple ilustra procesos relevantes. Bucket real pendiente de habilitar por facturación, confirmado por el usuario.
 
 Actualización R-08: el usuario sustituye el Secret de Compose local por local.properties; se conserva soporte para Secret de producción mediante OPENAI_API_KEY_FILE o OPENAI_API_KEY.
+
+## Actualización 2026-10-13
+
+La descarga autenticada de imágenes se sustituye por [URLs permanentes Firebase](../recipes-permanent-image-urls/spec.md), autorizadas por el usuario. Este documento conserva el diseño anterior como antecedente.

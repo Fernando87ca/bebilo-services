@@ -16,3 +16,5 @@ Para un nuevo cambio, copiar [_template](_template/plan.md) a una carpeta con no
 - [Prompts exclusivos de cocina infantil](recipe-child-only-prompts/plan.md): recursos reforzados y validación local.
 
 - [SSE de estados de Recipes](recipes-sse/plan.md): **completado**, observación por cuenta y snapshot inicial; [evidencia](recipes-sse/implementation.md) con tests, emulador y gateway aislado.
+
+- [URLs permanentes de imágenes de Recipes](recipes-permanent-image-urls/plan.md): implementado y redesplegado localmente; pendiente de validación real de Storage.

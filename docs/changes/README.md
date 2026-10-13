@@ -12,3 +12,7 @@
 Para un nuevo cambio, copiar [_template](_template/plan.md) a una carpeta con nombre estable y añadir una fila. Seguir el [proceso](../spec-driven-development.md). No modificar las plantillas para registrar la ejecución de un cambio concreto.
 
 - [Creación asíncrona de recetas con Koog](recipes-post-koog/plan.md): **pendiente de validación**, implementación y checks locales completos; bucket real pendiente.
+
+- [Prompts exclusivos de cocina infantil](recipe-child-only-prompts/plan.md): recursos reforzados y validación local.
+
+- [SSE de estados de Recipes](recipes-sse/plan.md): **completado**, observación por cuenta y snapshot inicial; [evidencia](recipes-sse/implementation.md) con tests, emulador y gateway aislado.

@@ -12,3 +12,5 @@
 Los planes transversales de la API viven en este repositorio agregador. El código y OpenAPI pertenecen a cada servicio; la documentación de pantallas permanece en la app.
 
 - [Creación asíncrona de recetas con Koog](changes/recipes-post-koog/plan.md): **pendiente de validación**, implementación y checks locales completos; bucket real pendiente.
+
+- [SSE de estados de Recipes](changes/recipes-sse/plan.md): observación por cuenta con snapshot inicial y cambios de estado.

@@ -50,3 +50,5 @@ Actualización R-08: el usuario sustituye el Secret de Compose local por local.p
 ## Actualización 2026-10-13
 
 La descarga autenticada de imágenes se sustituye por [URLs permanentes Firebase](../recipes-permanent-image-urls/spec.md), autorizadas por el usuario. Este documento conserva el diseño anterior como antecedente.
+
+Actualización 2026-10-14: [agentes de alérgenos](../recipe-allergen-agents/spec.md) amplía R-04/R-05 con herramientas nativas, sustitución u omisión de incompatibles y verificación final obligatoria. Se conserva este historial.

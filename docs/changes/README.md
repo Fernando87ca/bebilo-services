@@ -18,3 +18,9 @@ Para un nuevo cambio, copiar [_template](_template/plan.md) a una carpeta con no
 - [SSE de estados de Recipes](recipes-sse/plan.md): **completado**, observación por cuenta y snapshot inicial; [evidencia](recipes-sse/implementation.md) con tests, emulador y gateway aislado.
 
 - [URLs permanentes de imágenes de Recipes](recipes-permanent-image-urls/plan.md): implementado y redesplegado localmente; pendiente de validación real de Storage.
+
+- [Ingredientes manuales custom](recipe-custom-ingredients/plan.md): completado; aceptación, reclasificación y alérgenos validados y redesplegados en Recipes.
+
+- [Límite de imágenes por receta](recipe-image-limit/plan.md): **completado**, máximo cuatro instrucciones y una portada opcional.
+
+- [Agentes de alérgenos y alternativas](recipe-allergen-agents/plan.md): completado con proveedor LLM simulado; análisis obligatorio, sustituciones y omisiones verificadas.

@@ -16,3 +16,9 @@ Los planes transversales de la API viven en este repositorio agregador. El códi
 - [SSE de estados de Recipes](changes/recipes-sse/plan.md): observación por cuenta con snapshot inicial y cambios de estado.
 
 - [URLs permanentes de imágenes de Recipes](changes/recipes-permanent-image-urls/plan.md): implementado y redesplegado localmente; pendiente de validación real de Storage.
+
+- [Ingredientes manuales custom](changes/recipe-custom-ingredients/plan.md): completado; aceptación, reclasificación y alérgenos validados y redesplegados en Recipes.
+
+- [Límite de imágenes por receta](changes/recipe-image-limit/plan.md): máximo cuatro imágenes de instrucciones y una portada opcional.
+
+- [Agentes de alérgenos y alternativas](changes/recipe-allergen-agents/plan.md): completado con proveedor LLM simulado; análisis obligatorio, sustituciones y omisiones verificadas.

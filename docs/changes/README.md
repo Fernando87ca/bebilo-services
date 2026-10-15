@@ -24,3 +24,7 @@ Para un nuevo cambio, copiar [_template](_template/plan.md) a una carpeta con no
 - [Límite de imágenes por receta](recipe-image-limit/plan.md): **completado**, máximo cuatro instrucciones y una portada opcional.
 
 - [Agentes de alérgenos y alternativas](recipe-allergen-agents/plan.md): completado con proveedor LLM simulado; análisis obligatorio, sustituciones y omisiones verificadas.
+
+- [Recetas narradas y pasos concisos](recipe-instruction-formats/plan.md): completado; objetivo y tareas por bloque, agentes por estilo, validación y despliegue Rancher verificados.
+
+- [IA por usuario y fecha de nacimiento](user-ai-and-baby-birth-date/plan.md): completado y desplegado en Rancher Desktop; nacimiento autoritativo y edad por solicitud.

@@ -22,3 +22,7 @@ Los planes transversales de la API viven en este repositorio agregador. El códi
 - [Límite de imágenes por receta](changes/recipe-image-limit/plan.md): máximo cuatro imágenes de instrucciones y una portada opcional.
 
 - [Agentes de alérgenos y alternativas](changes/recipe-allergen-agents/plan.md): completado con proveedor LLM simulado; análisis obligatorio, sustituciones y omisiones verificadas.
+
+- [Recetas narradas y pasos concisos](changes/recipe-instruction-formats/plan.md): completado; objetivo y tareas por bloque, agentes por estilo, validación y despliegue Rancher verificados.
+
+- [IA por usuario y fecha de nacimiento](changes/user-ai-and-baby-birth-date/plan.md): completado y desplegado en Rancher Desktop; nacimiento autoritativo y edad por solicitud.
